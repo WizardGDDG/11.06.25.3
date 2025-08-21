@@ -1,0 +1,15 @@
+<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Calendar x:Name="Calen" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox x:Name="Date" HorizontalAlignment="Left" Margin="39,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+        <Button Content="Установить дату" HorizontalAlignment="Left" Margin="168,0,0,0" VerticalAlignment="Center" Click="Button_Click"/>
+
+    </Grid>
+</Window>
